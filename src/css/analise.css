@@ -1,0 +1,47 @@
+.lista-analise h4{
+  color: var(--light-pink);
+}
+
+.lista-analise a{
+  width: 60%;
+}
+
+.maismenos::after{
+  content: "+";
+  position: absolute;
+  color: var(--light-pink);
+  z-index: 2;
+  font-size: 36px;
+  font-weight: bold;
+  right: 23%;
+  top: 5px;
+}
+
+.ativo .maismenos::after{
+  content: "-";
+  right: 23.5%;
+}
+
+li{
+  border: none;
+}
+
+.lista-analise h5{
+  color: var(--light-pink);
+}
+
+.accordion{
+  width: 60%;
+}
+
+.tentativa{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px){
+  .treatment h2{
+    text-align: center;
+  }
+}

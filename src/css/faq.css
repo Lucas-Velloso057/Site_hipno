@@ -1,0 +1,64 @@
+
+.faq-title > h2{
+  margin-top: 16px;
+  font-size: 36px;
+  max-width: 100px;
+}
+
+.botao-faq{
+  display: flex;
+  margin-top: 13px;
+  z-index: 3;
+  width: 240px;
+  height: 36px;
+  border-radius: 55px;
+  background: var(--dark-pink);
+  box-shadow: 4px 4px 0px 0px white;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--light-pink);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  border: solid 1px transparent;
+}
+
+.botao-faq:hover{
+background: var(--light-pink);
+color: var(--dark-pink);
+border: solid 1px var(--dark-pink);
+}
+
+.faq ul{
+  margin-left: 50px;
+}
+
+.faqs li{
+  position: relative;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 16px 0px 16px 16px ;
+  width: 530px;
+  background-color: #d9d9d9;
+  border: solid 2px black;
+  margin: 1px 0;
+  cursor: pointer;
+}
+
+.faqs li::after{
+  content: "+";
+  color: black;
+}
+
+.card-resize{
+  width: 100%;
+}
+@media (max-width: 576px){
+  .botao-faq{
+    width: 80%;
+    height: 10%;
+    border-radius: 15px;
+    text-align: center;
+  }
+}

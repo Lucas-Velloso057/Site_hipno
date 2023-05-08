@@ -1,0 +1,52 @@
+.anxiety-block{
+  width: 100%;
+  height: max-content;
+  position: relative;
+  padding-top: 10%;
+}
+
+.anxiety-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+.anxiety-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/julgamento\ foto.png");
+  background-size: cover;
+  opacity: 0.2;
+}
+
+.anxiety-call{
+  inline-size: 70%;
+
+}
+
+.anxiety-text{
+  inline-size: 90%;
+}
+
+.botao-anxiety{
+  margin: 0 auto;
+  z-index: 1;
+  position: relative; 
+  width: 100%;
+}
+
+@media (max-width: 576px){
+  .anxiety-call{
+    font-size: 1.5rem;
+    text-align: center;
+    justify-self: center;
+  }
+  .anxiety-text{
+    display: none;
+  }
+
+}
