@@ -42,3 +42,9 @@
     height: 35%;
   }
 }
+
+@media (max-height: 820px){
+  #liberte-se{
+    height: max-content;
+  }
+}

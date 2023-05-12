@@ -44,4 +44,14 @@ li{
   .treatment h2{
     text-align: center;
   }
+  .lista-analise a{
+    width: 82%;
+  }
+  .ativo .maismenos::after{
+    right: 15.5%;
+  }
+  .maismenos::after{
+    right: 15%;
+
+  }
 }
