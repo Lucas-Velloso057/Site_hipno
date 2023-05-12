@@ -57,7 +57,7 @@ border: solid 1px var(--dark-pink);
 @media (max-width: 576px){
   .botao-faq{
     width: 80%;
-    height: 5%;
+    height: 23%;
     border-radius: 15px;
     text-align: center;
   }
